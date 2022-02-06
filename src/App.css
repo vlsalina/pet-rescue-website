@@ -6,6 +6,7 @@
   font-size: 16px;
   --white: #fff;
   --black: #000;
+  --desktop: 1025px;
 }
 
 ul {
@@ -20,12 +21,16 @@ ul {
   align-items: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 .App--box-1 {
   width: 100%;
 }
 
-@media screen and (min-width: 1192px) {
+@media screen and (min-width: 1025px) {
   .App--box-1 {
-    width: 1192px;
+    width: var(--desktop);
   }
 }

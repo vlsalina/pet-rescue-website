@@ -1,0 +1,67 @@
+.learn {
+  background-color: #8e393d;
+  width: 100%;
+}
+
+/* learn items */
+.learn__items {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 3rem 0;
+}
+
+/* end learn items */
+
+/* learn item */
+
+.learn__items li {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.learn__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  padding: 0 1rem;
+}
+
+.learn__image {
+  width: 199px;
+  height: 199px;
+}
+
+.learn__image img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.learn__how p {
+  text-align: center;
+}
+
+.learn__what,
+.learn__how {
+  color: var(--white);
+}
+
+@media screen and (min-width: 769px) {
+  .learn__items li {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .learn__items li {
+    width: 25%;
+  }
+
+  .learn_item {
+    width: 100%;
+  }
+}
+
+/* end learn item */
