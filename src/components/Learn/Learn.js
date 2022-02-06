@@ -1,12 +1,12 @@
 import "./Learn.css";
-import { data } from "./data";
+import { learn } from "./data";
 import ButtonA from "../buttons/ButtonA/ButtonA";
 
 const Learn = () => {
   return (
     <div className="learn">
       <ul className="learn__items">
-        {data.map((item) => (
+        {learn.map((item) => (
           <li key={item.what}>
             <div className="learn__item">
               <div className="learn__what">

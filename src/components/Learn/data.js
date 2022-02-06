@@ -1,4 +1,4 @@
-export const data = [
+export const learn = [
   {
     what: "Adopt",
     how: "Visit with our pets ready for adoption. Come meet your perfect match today!",
@@ -18,5 +18,32 @@ export const data = [
     what: "Volunteer",
     how: "You can help animals that we would otherwise not be able to facilitate.",
     img: "/assets/learn_how/Untitled-4.png",
+  },
+];
+
+export const companions = [
+  {
+    name: "Bosco",
+    story:
+      "Bosco came to the shelter when someone in his family became allergic. He's an affectionate guy who.. enjoys catnip and watching...",
+    img: "/assets/companions/bosco-580x460.jpg",
+  },
+  {
+    name: "Buck",
+    story:
+      "Buck came to the shelter when someone in his family became allergic. He's an affectionate guy who.. enjoys catnip and watching...",
+    img: "/assets/companions/buck-580x460.jpg",
+  },
+  {
+    name: "Jeffrey",
+    story:
+      "Jeffrey came to the shelter when someone in his family became allergic. He's an affectionate guy who.. enjoys catnip and watching...",
+    img: "/assets/companions/1jeffrey-580x460.jpg",
+  },
+  {
+    name: "Belle",
+    story:
+      "Belle came to the shelter when someone in his family became allergic. He's an affectionate guy who.. enjoys catnip and watching...",
+    img: "/assets/companions/belle-580x460.jpg",
   },
 ];
