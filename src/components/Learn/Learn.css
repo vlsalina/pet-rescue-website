@@ -19,13 +19,14 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .learn__item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 75%;
+  width: 60%;
   padding: 0 1rem;
 }
 
@@ -57,9 +58,10 @@
 @media screen and (min-width: 1025px) {
   .learn__items li {
     width: 25%;
+    margin-bottom: 0;
   }
 
-  .learn_item {
+  .learn__item {
     width: 100%;
   }
 }

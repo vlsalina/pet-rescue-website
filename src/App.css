@@ -7,6 +7,8 @@
   --white: #fff;
   --black: #000;
   --desktop: 1025px;
+  --buttonA-hover-bgc-bottom: #3d3d3d;
+  --buttonA-hover-bgc-top: #8e393d;
 }
 
 ul {

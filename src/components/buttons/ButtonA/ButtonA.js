@@ -2,7 +2,7 @@ import "./ButtonA.css";
 
 const ButtonA = ({ text }) => {
   return (
-    <a className="buttonA">
+    <a className="buttonA" href="#">
       <span>{text}</span>
     </a>
   );

@@ -25,3 +25,11 @@
 
   line-height: 36px;
 }
+
+.buttonA:hover {
+  background: linear-gradient(
+    var(--buttonA-hover-bgc-top),
+    var(--buttonA-hover-bgc-bottom)
+  );
+  color: #fff;
+}
