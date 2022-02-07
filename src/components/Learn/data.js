@@ -71,3 +71,24 @@ export const recent = [
     image: "/assets/events/left-eye-copy-250x250.jpg",
   },
 ];
+
+export const events = [
+  {
+    month: "JUN",
+    day: "11",
+    time: "06/11/2023 / 6:00 pm - 09/13/2024 / 7:00 pm",
+    event: "Animal Shelter Volunteers Meeting",
+  },
+  {
+    month: "NOV",
+    day: "11",
+    time: "11/11/2023 / 6:00 pm - 02/19/2025 / 9:00 pm",
+    event: "Meet & Greet Adoption Event",
+  },
+  {
+    month: "DEC",
+    day: "9",
+    time: "12/9/2023 / 11:00am - 03/22/2025 / 8:00 pm",
+    event: "Kitten Adoption Days",
+  },
+];

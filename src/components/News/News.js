@@ -19,9 +19,7 @@ const News = () => {
                 <div className="article__title">
                   <a href="#">{news.title}</a>
                 </div>
-                <summary className="article__story text-styles-2">
-                  {news.story}
-                </summary>
+                <summary className="article__story">{news.story}</summary>
               </div>
             </article>
           </li>

@@ -28,10 +28,20 @@
 .text-styles-2 {
   background: transparent;
   border: 0;
-  margin: 0;
+  margin: 1rem 0 0 0;
   padding: 0;
   vertical-align: baseline;
   outline: none;
+}
+
+.text-styles-3 {
+  font-family: "Bitter", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: none;
+  text-decoration: none;
 }
 
 ul {

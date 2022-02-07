@@ -1,0 +1,162 @@
+/* events */
+.events {
+  width: 100%;
+}
+
+@media screen and (min-width: 1025px) {
+  .events {
+    width: 50%;
+  }
+}
+/* end events */
+
+.events--box-1,
+.ci {
+  width: 100%;
+}
+
+/* events--box-1 */
+.events--box-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 769px) {
+  .events--box-1 {
+    flex-direction: row;
+  }
+}
+/* end events--box-1 */
+
+/* ci */
+.ci {
+  margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 1025px) {
+  .ci {
+    width: 50%;
+  }
+}
+/* end ci */
+
+/* upcoming events */
+.upcoming-events {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.upcoming-events li {
+  width: 100%;
+}
+/* end upcoming events */
+
+/* event */
+.event {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* end event */
+
+/* events--box-2 */
+.events--box-2 {
+  width: 15%;
+}
+
+@media screen and (min-width: 1025px) {
+  .events--box-2 {
+    margin-right: 1rem;
+  }
+}
+/* end events--box-2 */
+
+/* event__month */
+.event__month p {
+  margin-bottom: 0;
+}
+/* end event__month */
+
+/* event__day */
+.event__day p {
+  margin-top: 0;
+}
+/* end event__day */
+
+/* events--box-3 */
+.events--box-3 {
+  width: 85%;
+}
+/* end events--box-3 */
+
+/* ads */
+.ads {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ads--box {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.ads--box a img {
+  width: 100%;
+  object-fit: contain;
+}
+
+@media screen and (min-width: 321px) {
+  .ads--box {
+    width: 272px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .ads {
+    padding: 0 0 0 2rem;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .ads {
+    width: 50%;
+  }
+}
+/* end ads */
+
+/* event event */
+.event__event--text-styling {
+  font-size: 22px;
+  line-height: 28px;
+
+  font-family: "Bitter", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: none;
+  text-decoration: none;
+
+  font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif !important;
+
+  color: #373737;
+  color: rgba(55, 55, 55, 1);
+}
+
+/* end event event */
+
+/* event time */
+.event__time p {
+  font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif !important;
+
+  border: 0;
+  margin: 0;
+  padding: 0;
+
+  font-size: 14px;
+  line-height: 18px;
+}
+/* end event time */

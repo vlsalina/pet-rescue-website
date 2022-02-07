@@ -5,7 +5,7 @@ import Events from "../Events/Events";
 
 const Announcements = () => {
   return (
-    <div className="anncounements">
+    <div className="announcements">
       <News />
       <Events />
     </div>
