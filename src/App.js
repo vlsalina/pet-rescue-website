@@ -5,6 +5,7 @@ import Learn from "./components/Learn/Learn";
 import Companions from "./components/Companions/Companions";
 import Announcements from "./components/Announcements/Announcements";
 import Sponsors from "./components/Sponsors/Sponsors";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Companions />
         <Announcements />
         <Sponsors />
+        <Footer />
       </div>
     </div>
   );

@@ -144,6 +144,16 @@
 
   color: #373737;
   color: rgba(55, 55, 55, 1);
+
+  -webkit-transition: color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  -ms-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+.event__event--text-styling:hover {
+  color: rgb(187, 159, 159);
 }
 
 /* end event event */

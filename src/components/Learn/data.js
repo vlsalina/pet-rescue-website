@@ -92,3 +92,37 @@ export const events = [
     event: "Kitten Adoption Days",
   },
 ];
+
+export const antiCrueltySociety = [
+  "adoption information",
+  "dog training classes",
+  "employment/internships",
+  "humane education",
+  "veterinary clinic",
+  "report animal abuse",
+];
+
+export const spayAndNeuterClinic = [
+  "spay neuter",
+  "after surgery instructions",
+  "mandatory tattooing with spay surgeries",
+  "charity veterinary clinic",
+  "schedule Spay/Neuter surgery",
+  "volunteer",
+];
+
+export const trainingYourPet = [
+  "training your dog",
+  "training your cat",
+  "workshops for dogs",
+  "introducing your dog to other pets and babies",
+  "introducing your cart to other pets and babies",
+];
+
+export const adoptionInformation = [
+  "adoption information",
+  "adopt a cat",
+  "adopt a dog",
+  "adoption programs",
+  "our adoption partners",
+];
