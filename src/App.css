@@ -11,8 +11,27 @@
   --buttonA-hover-bgc-bottom: #3d3d3d;
   --buttonA-hover-bgc-top: #8e393d;
 
-  /* for Companions component */
+  /* padding variables */
   --padding1: 1.5rem;
+}
+
+/* global text styling */
+.text-styles-1 {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: none;
+}
+
+.text-styles-2 {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: none;
 }
 
 ul {

@@ -12,7 +12,7 @@ const Companions = () => {
       </div>
       <div className="companions__list">
         {companions.map((co) => (
-          <div className="companion__featured">
+          <div className="companion__featured" key={co.name}>
             <div className="companion__image">
               <img src={co.img} />
             </div>

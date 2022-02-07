@@ -3,6 +3,7 @@ import "./App.css";
 import Carousel from "./components/Carousel/Carousel";
 import Learn from "./components/Learn/Learn";
 import Companions from "./components/Companions/Companions";
+import Announcements from "./components/Announcements/Announcements";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Carousel />
         <Learn />
         <Companions />
+        <Announcements />
       </div>
     </div>
   );
