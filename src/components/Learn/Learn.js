@@ -1,5 +1,5 @@
 import "./Learn.css";
-import { learn } from "./data";
+import { learn } from "../../data";
 import ButtonA from "../buttons/ButtonA/ButtonA";
 
 const Learn = () => {

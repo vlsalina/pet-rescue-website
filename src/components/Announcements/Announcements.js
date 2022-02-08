@@ -1,5 +1,5 @@
 import "./Announcements.css";
-import { recent } from "../Learn/data";
+import { recent } from "../../data";
 import News from "../News/News";
 import Events from "../Events/Events";
 

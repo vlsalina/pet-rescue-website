@@ -1,5 +1,5 @@
 import "./Companions.css";
-import { companions } from "../Learn/data";
+import { companions } from "../../data";
 
 const Companions = () => {
   return (

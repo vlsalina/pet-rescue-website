@@ -7,4 +7,8 @@ export const styles = {
     size: "1rem",
     color: "rgba(244, 174, 64, 1)",
   },
+  social: {
+    size: "2rem",
+    className: "social-icons",
+  },
 };

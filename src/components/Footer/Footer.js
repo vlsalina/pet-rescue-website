@@ -6,7 +6,7 @@ import {
   spayAndNeuterClinic,
   trainingYourPet,
   adoptionInformation,
-} from "../Learn/data";
+} from "../../data";
 import { styles } from "../../styles/styles";
 
 const Footer = () => {

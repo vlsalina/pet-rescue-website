@@ -1,5 +1,5 @@
 import "./Events.css";
-import { events } from "../Learn/data";
+import { events } from "../../data";
 
 const Events = () => {
   return (

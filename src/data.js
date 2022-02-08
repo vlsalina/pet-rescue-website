@@ -1,3 +1,9 @@
+import { FaTwitter } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaVimeoV } from "react-icons/fa";
+import { FaSkype } from "react-icons/fa";
+
 export const learn = [
   {
     what: "Adopt",
@@ -126,3 +132,13 @@ export const adoptionInformation = [
   "adoption programs",
   "our adoption partners",
 ];
+
+export const social = [
+  { media: "twitter", icon: <FaTwitter /> },
+  { media: "facebook", icon: <FaFacebookF /> },
+  { media: "linkedin", icon: <FaLinkedinIn /> },
+  { media: "vimeo", icon: <FaVimeoV /> },
+  { media: "Skype", icon: <FaSkype /> },
+];
+
+export const links = ["About Us", "All Pets", "Contacts"];

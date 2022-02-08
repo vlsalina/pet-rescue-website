@@ -1,5 +1,5 @@
 import "./News.css";
-import { recent } from "../Learn/data";
+import { recent } from "../../data";
 
 const News = () => {
   return (

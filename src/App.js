@@ -6,6 +6,7 @@ import Companions from "./components/Companions/Companions";
 import Announcements from "./components/Announcements/Announcements";
 import Sponsors from "./components/Sponsors/Sponsors";
 import Footer from "./components/Footer/Footer";
+import SubFooter from "./components/SubFooter/SubFooter";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Announcements />
         <Sponsors />
         <Footer />
+        <SubFooter />
       </div>
     </div>
   );
