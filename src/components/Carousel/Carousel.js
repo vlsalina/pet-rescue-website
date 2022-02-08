@@ -4,6 +4,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { IconContext } from "react-icons/lib";
 import { styles } from "../../styles/styles";
 import { swipeLeft } from "./Actions";
+import ButtonA from "../buttons/ButtonA/ButtonA";
 
 const Carousel = () => {
   return (
@@ -26,18 +27,20 @@ const Carousel = () => {
             </a>
           </div>
           <section className="carousel--box-3">
-            <div className="carousel__info--large carousel--white">
+            <div className="carousel__info--top carousel--margin1">
               <p> Do you care?</p>
             </div>
-            <div className="carousel__info--small carousel--white">
+            <div className="carousel__info--middle carousel--margin1">
               <p> We do.</p>
             </div>
-            <div className="carousel__info--small carousel--white">
+            <div className="carousel__info--bottom carousel--margin1">
               <p>
                 More than 155 pets so far found home a with our help this year
               </p>
             </div>
-            <div></div>
+            <div>
+              <ButtonA text={"Get Involved"} />
+            </div>
           </section>
         </div>
         <div className="carousel__image" id="carousel__image2">
@@ -57,14 +60,17 @@ const Carousel = () => {
             </a>
           </div>
           <section className="carousel--box-4">
-            <div className="carousel__info--large carousel--white carousel--end">
+            <div className="carousel__info--top carousel--end carousel--margin1">
               <p>Don't let them suffer</p>
             </div>
-            <div className="carousel__info--small carousel--black carousel--end">
+            <div className="carousel__info--middle carousel--end carousel--margin1">
               <p>Homeless.</p>
             </div>
-            <div className="carousel__info--small carousel--black carousel--end">
+            <div className="carousel__info--bottom carousel--end carousel--margin1">
               <p>Open your heart and home to a friend for life</p>
+            </div>
+            <div className="carousel__info--end">
+              <ButtonA text={"Get Involved"} />
             </div>
           </section>
         </div>
@@ -85,16 +91,18 @@ const Carousel = () => {
             </a>
           </div>
           <section className="carousel--box-5">
-            <div className="carousel__info--large carousel--white carousel--center">
+            <div className="carousel__info--top carousel--center carousel--margin1">
               <p>Save a life</p>
             </div>
-            <div className="carousel__info--small carousel--white carousel--center">
+            <div className="carousel__info--middle carousel--center carousel--margin1">
               <p>And make your life better.</p>
             </div>
-            <div className="carousel__info--small carousel--white carousel--center">
+            <div className="carousel__info--bottom carousel--center carousel--margin1">
               <p>Adopt or rescue a shelter pet with our help.</p>
             </div>
-            <div></div>
+            <div className="carousel__info--center">
+              <ButtonA text={"Get Involved"} />
+            </div>
           </section>
         </div>
       </div>

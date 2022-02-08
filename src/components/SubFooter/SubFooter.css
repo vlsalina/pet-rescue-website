@@ -7,6 +7,16 @@
   justify-content: space-between;
   padding: 80px 20px;
   height: 452px;
+  width: 100%;
+}
+
+@media screen and (min-width: 1025px) {
+  .subfooter {
+    width: var(--desktop);
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
+  }
 }
 
 /* end subfooter */

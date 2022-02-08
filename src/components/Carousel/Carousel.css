@@ -8,7 +8,6 @@
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
 }
 
 .carousel--box-1 {
@@ -76,11 +75,17 @@
   right: 0;
 }
 
+@media screen and (min-width: 1025px) {
+  .carousel__buttons {
+    width: 100px;
+  }
+}
+
 /* end carousel buttons */
 
 /* carousel scroll bar */
 *::-webkit-scrollbar {
-  width: 0;
+  height: 0;
 }
 
 *::-webkit-scrollbar-track {
@@ -105,21 +110,59 @@
   justify-content: center;
 }
 
-.carousel__info--large p {
+.carousel--margin1 {
+  margin-bottom: var(--margin-bottom-1);
+}
+
+.carousel__info--end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.carousel__info--center {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel__info--top p {
+  font-style: italic;
+  font-family: Bitter;
   font-size: 4vw;
-  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin: 0px;
+  z-index: auto;
+  padding: 0px;
+  border-width: 0px;
+  border-radius: 0px;
+  letter-spacing: 0px;
+  filter: none;
 }
 
-.carousel__info--small p {
+.carousel__info--middle p {
+  font-weight: 700;
+  font-family: Bitter;
   font-size: 2vw;
+  color: var(--gold);
+  border-radius: 3px;
+  margin: 0px;
+  z-index: auto;
+  padding: 0px;
+  border-width: 0px;
+  letter-spacing: 0px;
+  filter: none;
 }
 
-.carousel--white {
-  color: var(--white);
-}
-
-.carousel--black {
-  color: var(--black);
+.carousel__info--bottom p {
+  font-size: 2vw;
+  font-family: Bitter;
+  color: rgb(255, 255, 255);
+  margin: 0px;
+  z-index: auto;
+  padding: 0px;
+  border-width: 0px;
+  border-radius: 0px;
+  letter-spacing: 0px;
+  filter: none;
 }
 
 .carousel--center {
@@ -131,16 +174,21 @@
 }
 
 @media screen and (min-width: 1025px) {
-  .carousel__info--small p {
+  .carousel__info--bottom p {
     font-size: 1rem;
   }
 
-  .carousel__info--large p {
+  .carousel__info--middle p {
+    font-size: 1rem;
+  }
+
+  .carousel__info--top p {
     font-size: 4rem;
   }
 
   .carousel--box-3 {
     width: 250px;
+    left: 100px;
   }
 }
 

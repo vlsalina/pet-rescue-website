@@ -7,6 +7,7 @@ import Announcements from "./components/Announcements/Announcements";
 import Sponsors from "./components/Sponsors/Sponsors";
 import Footer from "./components/Footer/Footer";
 import SubFooter from "./components/SubFooter/SubFooter";
+import PlaceHolder from "./components/PlaceHolder/PlaceHolder";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Announcements />
         <Sponsors />
         <Footer />
+        <PlaceHolder />
         <SubFooter />
       </div>
     </div>

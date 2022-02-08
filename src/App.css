@@ -3,14 +3,18 @@
 }
 
 #root {
-  /* global variables */
   font-size: 16px;
+
+  /* global variables */
   --white: #fff;
   --black: #000;
   --gold: rgba(244, 174, 64, 1);
   --desktop: 1025px;
   --buttonA-hover-bgc-bottom: #3d3d3d;
   --buttonA-hover-bgc-top: #8e393d;
+
+  /* global margin variables */
+  --margin-bottom-1: 1rem;
 
   /* padding variables */
   --padding1: 1.5rem;
@@ -48,6 +52,7 @@
 ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 .App {
