@@ -7,8 +7,12 @@
 
   /* global variables */
   --white: #fff;
+  --white-2: rgb(231, 218, 218);
   --black: #000;
   --gold: rgba(244, 174, 64, 1);
+  --gold-2: rgb(156, 122, 68);
+  --dark-brown-1: #2e2b29;
+  --dark-brown-2: rgba(46, 43, 41, 1);
   --desktop: 1025px;
   --buttonA-hover-bgc-bottom: #3d3d3d;
   --buttonA-hover-bgc-top: #8e393d;

@@ -8,11 +8,13 @@ import Sponsors from "./components/Sponsors/Sponsors";
 import Footer from "./components/Footer/Footer";
 import SubFooter from "./components/SubFooter/SubFooter";
 import PlaceHolder from "./components/PlaceHolder/PlaceHolder";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <div className="App">
       <div className="App--box-1">
+        <Header />
         <Carousel />
         <Learn />
         <Companions />

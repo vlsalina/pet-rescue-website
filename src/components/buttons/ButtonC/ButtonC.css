@@ -1,0 +1,29 @@
+.buttonC {
+  text-transform: uppercase;
+  background: transparent;
+  color: var(--white-2);
+  height: 46px;
+  padding: 0 1.3rem;
+
+  font-family: "Bitter", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+
+  border: none;
+  border-radius: 3%;
+
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.buttonC:hover {
+  background: linear-gradient(var(--gold), var(--gold-2));
+  color: var(--dark-brown-1);
+  color: var(--dark-brown-2);
+}

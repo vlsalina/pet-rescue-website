@@ -11,4 +11,12 @@ export const styles = {
     size: "2rem",
     className: "social-icons",
   },
+  socialMenuTop: {
+    size: "1rem",
+    className: "social-menu-top-icons",
+  },
+  mobile: {
+    size: "2rem",
+    color: "#fff",
+  },
 };

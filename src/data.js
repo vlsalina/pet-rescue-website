@@ -142,3 +142,13 @@ export const social = [
 ];
 
 export const links = ["About Us", "All Pets", "Contacts"];
+
+export const navigation = [
+  "home",
+  "pets",
+  "layouts",
+  "post types",
+  "shortcodes",
+  "shop",
+  "contacts",
+];
