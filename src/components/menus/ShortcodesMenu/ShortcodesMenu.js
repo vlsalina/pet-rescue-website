@@ -23,7 +23,7 @@ const ShortcodesMenu = ({ menu }) => {
     "Gallery",
     "Portfolio Shortcode",
     "Embedded",
-    "Custom HTML, CSS< JS",
+    "Custom HTML, CSS, JS",
     "Sidebar",
     "Sliders",
     "Profiles",

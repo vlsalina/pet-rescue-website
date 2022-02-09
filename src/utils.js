@@ -1,3 +1,5 @@
+import { navigation } from "./data";
+
 export const toggleNavMenu = (flag, setFlag) => {
   let navMenu = document.getElementsByClassName("navMenu")[0];
 
@@ -19,9 +21,18 @@ export const toggleHomeMenu = (x) => {
   let menu = document.getElementsByClassName(x.replace(/\s/g, ""))[0];
   button.addEventListener("mouseover", () => {
     menu.style.display = "flex";
+    navigation.forEach((other) => {
+      if (other.replace(/\s/g, "") !== x.replace(/\s/g, "")) {
+        document.getElementsByClassName(
+          other.replace(/\s/g, "")
+        )[0].style.display = "none";
+      }
+    });
   });
 
-  button.addEventListener("mouseleave", () => {
-    menu.style.display = "none";
-  });
+  if (menu) {
+    menu.addEventListener("mouseleave", () => {
+      menu.style.display = "none";
+    });
+  }
 };
