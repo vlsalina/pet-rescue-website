@@ -12,14 +12,16 @@ export const toggleNavMenu = (flag, setFlag) => {
   }
 };
 
-export const toggleHomeMenu = () => {
-  let homeButton = document.getElementsByClassName("home--flag")[0];
-  let homeMenu = document.getElementsByClassName("homeMenu")[0];
-  homeButton.addEventListener("mouseover", () => {
-    homeMenu.style.display = "block";
+export const toggleHomeMenu = (x) => {
+  let button = document.getElementsByClassName(
+    `${x.replace(/\s/g, "")}-flag`
+  )[0];
+  let menu = document.getElementsByClassName(x.replace(/\s/g, ""))[0];
+  button.addEventListener("mouseover", () => {
+    menu.style.display = "flex";
   });
 
-  homeButton.addEventListener("mouseleave", () => {
-    homeMenu.style.display = "none";
+  button.addEventListener("mouseleave", () => {
+    menu.style.display = "none";
   });
 };

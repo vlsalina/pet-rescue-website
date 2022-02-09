@@ -1,7 +1,7 @@
 import "../Menu.css";
 
-const HomeMenu = ({ menu }) => {
-  let items = ["Right Navigation", "Classic Navigation", "Center Navigation"];
+const PetsMenu = ({ menu }) => {
+  const items = ["All Pets", "Adoptable Dogs", "Adoptable Cats"];
 
   return (
     <div className={`menu ${menu}`}>
@@ -16,4 +16,4 @@ const HomeMenu = ({ menu }) => {
   );
 };
 
-export default HomeMenu;
+export default PetsMenu;

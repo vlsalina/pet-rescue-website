@@ -10,12 +10,18 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import NavMenu from "../NavMenu/NavMenu";
 import { toggleNavMenu, toggleHomeMenu } from "../../utils";
 import HomeMenu from "../menus/HomeMenu/HomeMenu";
+import PetsMenu from "../menus/PetsMenu/PetsMenu";
+import LayoutsMenu from "../menus/LayoutsMenu/LayoutsMenu";
+import ShortcodesMenu from "../menus/ShortcodesMenu/ShortcodesMenu";
+import PostTypesMenu from "../menus/PostTypes/PostTypes";
 
 const Header = () => {
   const [flag, setFlag] = useState(false);
 
   useEffect(() => {
-    toggleHomeMenu();
+    navigation.forEach((x) => {
+      toggleHomeMenu(x);
+    });
   }, []);
 
   return (
@@ -45,11 +51,7 @@ const Header = () => {
           {navigation.map((x, index) => (
             <li key={x}>
               <div className="header--box-4">
-                {index === 0 ? (
-                  <ButtonB text={x} classes={"home--flag"} />
-                ) : (
-                  <ButtonC text={x} />
-                )}
+                {index === 0 ? <ButtonB text={x} /> : <ButtonC text={x} />}
                 {index === 0 ? (
                   <div />
                 ) : index === navigation.length - 1 ? (
@@ -57,7 +59,11 @@ const Header = () => {
                 ) : (
                   <div className="divider" />
                 )}
-                {index === 0 && <HomeMenu />}
+                {x === "home" && <HomeMenu menu={x} />}
+                {x === "pets" && <PetsMenu menu={x} />}
+                {x === "layouts" && <LayoutsMenu menu={x} />}
+                {x === "post types" && <PostTypesMenu menu={x} />}
+                {x === "shortcodes" && <ShortcodesMenu menu={x} />}
               </div>
             </li>
           ))}

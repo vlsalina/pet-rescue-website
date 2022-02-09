@@ -154,6 +154,7 @@ export const navigation = [
 ];
 
 export const navMenu = [
+  // 0-3
   {
     tier: 1,
     item: "HOME",
@@ -170,6 +171,8 @@ export const navMenu = [
     tier: 2,
     item: "Center Navigation",
   },
+
+  // 4-10
   {
     tier: 1,
     item: "PETS",
@@ -210,6 +213,8 @@ export const navMenu = [
     tier: 3,
     item: "Kittens",
   },
+
+  // 11-16
   {
     tier: 1,
     item: "LAYOUTS",
@@ -234,10 +239,14 @@ export const navMenu = [
     tier: 2,
     item: "Typography",
   },
+
+  // 17-37
   {
     tier: 1,
     item: "POST TYPES",
   },
+
+  // 18-21
   {
     tier: 2,
     item: "PROJECT GRID",
@@ -254,6 +263,8 @@ export const navMenu = [
     tier: 3,
     item: "No Gap",
   },
+
+  // 22-25
   {
     tier: 2,
     item: "MASSONRY PUZZLE",
@@ -270,6 +281,8 @@ export const navMenu = [
     tier: 3,
     item: "No Gap",
   },
+
+  // 26-29
   {
     tier: 2,
     item: "BLOG",
@@ -286,6 +299,8 @@ export const navMenu = [
     tier: 3,
     item: "Timeline Blog",
   },
+
+  // 30-33
   {
     tier: 2,
     item: "PROFILES",
@@ -302,6 +317,8 @@ export const navMenu = [
     tier: 3,
     item: "Open Profile",
   },
+
+  // 34-37
   {
     tier: 2,
     item: "EVENTS",
@@ -318,6 +335,8 @@ export const navMenu = [
     tier: 3,
     item: "Map",
   },
+
+  // 38-65
   {
     tier: 1,
     item: "SHORTCODES",
@@ -430,10 +449,14 @@ export const navMenu = [
     tier: 2,
     item: "Tweets",
   },
+
+  // 66
   {
     tier: 1,
     item: "SHOP",
   },
+
+  // 67
   {
     tier: 1,
     item: "CONTACTS",
