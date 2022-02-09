@@ -11,3 +11,15 @@ export const toggleNavMenu = (flag, setFlag) => {
     setFlag(!flag);
   }
 };
+
+export const toggleHomeMenu = () => {
+  let homeButton = document.getElementsByClassName("home--flag")[0];
+  let homeMenu = document.getElementsByClassName("homeMenu")[0];
+  homeButton.addEventListener("mouseover", () => {
+    homeMenu.style.display = "block";
+  });
+
+  homeButton.addEventListener("mouseleave", () => {
+    homeMenu.style.display = "none";
+  });
+};

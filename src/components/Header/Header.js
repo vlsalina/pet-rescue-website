@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Header.css";
 import { navigation, social } from "../../data";
 import { IconContext } from "react-icons/lib";
@@ -8,10 +8,15 @@ import ButtonC from "../buttons/ButtonC/ButtonC";
 import { FaShoppingCart } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import NavMenu from "../NavMenu/NavMenu";
-import { toggleNavMenu } from "../../utils";
+import { toggleNavMenu, toggleHomeMenu } from "../../utils";
+import HomeMenu from "../menus/HomeMenu/HomeMenu";
 
 const Header = () => {
   const [flag, setFlag] = useState(false);
+
+  useEffect(() => {
+    toggleHomeMenu();
+  }, []);
 
   return (
     <header className="header">
@@ -40,7 +45,11 @@ const Header = () => {
           {navigation.map((x, index) => (
             <li key={x}>
               <div className="header--box-4">
-                {index === 0 ? <ButtonB text={x} /> : <ButtonC text={x} />}
+                {index === 0 ? (
+                  <ButtonB text={x} classes={"home--flag"} />
+                ) : (
+                  <ButtonC text={x} />
+                )}
                 {index === 0 ? (
                   <div />
                 ) : index === navigation.length - 1 ? (
@@ -48,6 +57,7 @@ const Header = () => {
                 ) : (
                   <div className="divider" />
                 )}
+                {index === 0 && <HomeMenu />}
               </div>
             </li>
           ))}

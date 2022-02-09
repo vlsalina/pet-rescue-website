@@ -1,0 +1,13 @@
+.homeMenu {
+  padding: var(--padding1);
+  position: absolute;
+  bottom: 0;
+  width: 180px;
+  transform: translate(0, 100%);
+  background-color: var(--white);
+  display: none;
+}
+
+.homeMenu ul li:not(:last-child) {
+  margin-bottom: var(--margin-bottom-1);
+}
