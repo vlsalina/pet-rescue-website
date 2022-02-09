@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import "./Header.css";
 import { navigation, social } from "../../data";
 import { IconContext } from "react-icons/lib";
@@ -6,8 +7,12 @@ import ButtonB from "../buttons/ButtonB/ButtonB";
 import ButtonC from "../buttons/ButtonC/ButtonC";
 import { FaShoppingCart } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
+import NavMenu from "../NavMenu/NavMenu";
+import { toggleNavMenu } from "../../utils";
 
 const Header = () => {
+  const [flag, setFlag] = useState(false);
+
   return (
     <header className="header">
       <div className="header--box-4">
@@ -49,17 +54,24 @@ const Header = () => {
         </ul>
       </div>
       <div className="header__mobile-menu">
-        <div className="header__mobile-item header__mobile--margin">
+        <button
+          className="header__mobile-item header__mobile--margin"
+          onClick={() => toggleNavMenu(flag, setFlag)}
+        >
           <IconContext.Provider value={styles.mobile}>
             <GiHamburgerMenu />
           </IconContext.Provider>
-        </div>
-        <div className="header__mobile-item">
+        </button>
+        <button
+          className="header__mobile-item"
+          onClick={() => toggleNavMenu(flag, setFlag)}
+        >
           <IconContext.Provider value={styles.mobile}>
             <FaShoppingCart />
           </IconContext.Provider>
-        </div>
+        </button>
       </div>
+      <NavMenu />
     </header>
   );
 };

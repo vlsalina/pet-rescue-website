@@ -9,6 +9,7 @@ import Footer from "./components/Footer/Footer";
 import SubFooter from "./components/SubFooter/SubFooter";
 import PlaceHolder from "./components/PlaceHolder/PlaceHolder";
 import Header from "./components/Header/Header";
+import NavMenu from "./components/NavMenu/NavMenu";
 
 function App() {
   return (

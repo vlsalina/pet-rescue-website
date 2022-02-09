@@ -152,3 +152,290 @@ export const navigation = [
   "shop",
   "contacts",
 ];
+
+export const navMenu = [
+  {
+    tier: 1,
+    item: "HOME",
+  },
+  {
+    tier: 2,
+    item: "Right Navigation",
+  },
+  {
+    tier: 2,
+    item: "Classic Navigation",
+  },
+  {
+    tier: 2,
+    item: "Center Navigation",
+  },
+  {
+    tier: 1,
+    item: "PETS",
+  },
+  {
+    tier: 2,
+    item: "All Pets",
+  },
+  {
+    tier: 2,
+    item: "Adoptable Dogs",
+  },
+  {
+    tier: 3,
+    item: "All Dogs",
+  },
+  {
+    tier: 3,
+    item: "Adult Dogs",
+  },
+  {
+    tier: 3,
+    item: "Puppies",
+  },
+  {
+    tier: 2,
+    item: "Adoptable Cats",
+  },
+  {
+    tier: 3,
+    item: "All Cats",
+  },
+  {
+    tier: 3,
+    item: "Adult Cats",
+  },
+  {
+    tier: 3,
+    item: "Kittens",
+  },
+  {
+    tier: 1,
+    item: "LAYOUTS",
+  },
+  {
+    tier: 2,
+    item: "About Us",
+  },
+  {
+    tier: 2,
+    item: "Adoption Info",
+  },
+  {
+    tier: 2,
+    item: "Adoption Fees",
+  },
+  {
+    tier: 2,
+    item: "Donation",
+  },
+  {
+    tier: 2,
+    item: "Typography",
+  },
+  {
+    tier: 1,
+    item: "POST TYPES",
+  },
+  {
+    tier: 2,
+    item: "PROJECT GRID",
+  },
+  {
+    tier: 3,
+    item: "Large Gap",
+  },
+  {
+    tier: 3,
+    item: "1Pixel Gap",
+  },
+  {
+    tier: 3,
+    item: "No Gap",
+  },
+  {
+    tier: 2,
+    item: "MASSONRY PUZZLE",
+  },
+  {
+    tier: 3,
+    item: "Large Gap",
+  },
+  {
+    tier: 3,
+    item: "1Pixel Gap",
+  },
+  {
+    tier: 3,
+    item: "No Gap",
+  },
+  {
+    tier: 2,
+    item: "BLOG",
+  },
+  {
+    tier: 3,
+    item: "Standard Blog",
+  },
+  {
+    tier: 3,
+    item: "Masonry Blog",
+  },
+  {
+    tier: 3,
+    item: "Timeline Blog",
+  },
+  {
+    tier: 2,
+    item: "PROFILES",
+  },
+  {
+    tier: 3,
+    item: "Horizontal",
+  },
+  {
+    tier: 3,
+    item: "Vertical",
+  },
+  {
+    tier: 3,
+    item: "Open Profile",
+  },
+  {
+    tier: 2,
+    item: "EVENTS",
+  },
+  {
+    tier: 3,
+    item: "Photo",
+  },
+  {
+    tier: 3,
+    item: "Month",
+  },
+  {
+    tier: 3,
+    item: "Map",
+  },
+  {
+    tier: 1,
+    item: "SHORTCODES",
+  },
+  {
+    tier: 2,
+    item: "Toggles & Accordions",
+  },
+  {
+    tier: 2,
+    item: "Tabs & Tours",
+  },
+  {
+    tier: 2,
+    item: "Quotes",
+  },
+  {
+    tier: 2,
+    item: "Icon Lists",
+  },
+  {
+    tier: 2,
+    item: "Icon Boxes",
+  },
+  {
+    tier: 2,
+    item: "Special Headings",
+  },
+  {
+    tier: 2,
+    item: "Posts or Projects Slider",
+  },
+  {
+    tier: 2,
+    item: "Clients",
+  },
+  {
+    tier: 2,
+    item: "Dividers",
+  },
+  {
+    tier: 2,
+    item: "Images",
+  },
+  {
+    tier: 2,
+    item: "Google Maps",
+  },
+  {
+    tier: 2,
+    item: "Featured Blocks",
+  },
+  {
+    tier: 2,
+    item: "Tables",
+  },
+  {
+    tier: 2,
+    item: "Blog Shortcode",
+  },
+  {
+    tier: 2,
+    item: "Notice Boxes",
+  },
+  {
+    tier: 2,
+    item: "Counters & Progress Bars",
+  },
+  {
+    tier: 2,
+    item: "Buttons & Icons",
+  },
+  {
+    tier: 2,
+    item: "Social Sharing",
+  },
+  {
+    tier: 2,
+    item: "Gallery",
+  },
+  {
+    tier: 2,
+    item: "Portfolio Shortcode",
+  },
+  {
+    tier: 2,
+    item: "Embedded",
+  },
+  {
+    tier: 2,
+    item: "Custom HTML, CSS, JS",
+  },
+  {
+    tier: 2,
+    item: "Sidebar",
+  },
+  {
+    tier: 2,
+    item: "Sliders",
+  },
+  {
+    tier: 2,
+    item: "Profiles",
+  },
+  {
+    tier: 2,
+    item: "Pricing Tables",
+  },
+  {
+    tier: 2,
+    item: "Tweets",
+  },
+  {
+    tier: 1,
+    item: "SHOP",
+  },
+  {
+    tier: 1,
+    item: "CONTACTS",
+  },
+];
