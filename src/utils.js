@@ -22,7 +22,7 @@ export const toggleHomeMenu = (x) => {
   let menu = document.getElementsByClassName(target)[0];
   button.addEventListener("mouseover", () => {
     menu.style.display = "flex";
-    gsap.from(`.${target}`, { yPercent: 10, opacity: 0 });
+    gsap.from(`.${target}`, { yPercent: 10, opacity: 0, duration: 0.2 });
     navigation.forEach((other) => {
       let otherMenus = other.replace(/\s/g, "");
       if (otherMenus !== target) {
@@ -64,5 +64,19 @@ export const toggleCompanionInfo = (x) => {
   target.addEventListener("mouseleave", () => {
     backdrop.style.display = "none";
     infoBox.style.display = "none";
+  });
+};
+
+export const toggleNewsBackdrop = (x) => {
+  let target = document.getElementsByClassName("article__image")[x];
+  let backdrop = document.getElementsByClassName("article__backdrop")[x];
+
+  target.addEventListener("mouseenter", () => {
+    backdrop.style.display = "block";
+    gsap.from(backdrop, { opacity: 0, duration: 0.3 });
+  });
+
+  target.addEventListener("mouseleave", () => {
+    backdrop.style.display = "none";
   });
 };
