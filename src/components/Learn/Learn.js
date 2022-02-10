@@ -10,7 +10,7 @@ const Learn = () => {
           <li key={item.what}>
             <div className="learn__item">
               <div className="learn__what">
-                <h2>{item.what}</h2>
+                <h1>{item.what}</h1>
               </div>
               <div className="learn__image">
                 <img src={item.img} />

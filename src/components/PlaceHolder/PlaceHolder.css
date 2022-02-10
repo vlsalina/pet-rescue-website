@@ -4,6 +4,7 @@
   display: block;
   background-color: transparent;
   display: none;
+  position: relative;
 }
 
 @media screen and (min-width: 1025px) {
@@ -11,5 +12,6 @@
     width: var(--desktop);
     display: block;
     opacity: 0;
+    z-index: -3;
   }
 }

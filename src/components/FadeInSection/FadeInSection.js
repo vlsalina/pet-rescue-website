@@ -6,7 +6,7 @@ const FadeInSection = (props) => {
   const [isVisible, setIsVisible] = useState(false);
   const domRef = useRef();
   const options = {
-    threshold: 1,
+    threshold: props.target === ".sponsors__partner" ? 0.1 : 1,
   };
 
   useEffect(() => {
@@ -18,9 +18,14 @@ const FadeInSection = (props) => {
 
   useEffect(() => {
     let tl = gsap.timeline();
+    let setter = 0.5;
     let targets = document.querySelectorAll(props.target);
+    if (props.target === ".sponsors__partner") {
+      setter = 0.3;
+    }
+
     if (isVisible) {
-      tl.to(targets, { opacity: 1, stagger: 0.5, delay: 0.2 });
+      tl.to(targets, { opacity: 1, stagger: setter, delay: 0.2 });
     } else {
       tl.to(targets, { opacity: 0, duration: 0.1, stagger: 0.1 });
     }

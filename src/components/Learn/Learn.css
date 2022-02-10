@@ -26,9 +26,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 60%;
+  width: 80%;
   padding: 0 1rem;
 }
+
+/* learn__what */
+.learn__what h1 {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  color: rgba(255, 255, 255, 1);
+}
+/* end learn__what */
 
 .learn__image {
   width: 199px;

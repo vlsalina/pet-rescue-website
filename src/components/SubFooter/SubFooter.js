@@ -25,7 +25,7 @@ const SubFooter = () => {
           {social.map((x) => (
             <li key={x.media}>
               <a href="#">
-                <div className="subfooter__social-icon">
+                <div className="subfooter--box-1">
                   <IconContext.Provider value={styles.social}>
                     {x.icon}
                   </IconContext.Provider>

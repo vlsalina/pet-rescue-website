@@ -42,7 +42,7 @@
   padding: 2rem 2rem 0 2rem;
 }
 
-.sponsors__partners li:not(:last-child) {
+.sponsors__partners li {
   margin-bottom: 4rem;
 }
 
@@ -56,3 +56,10 @@
 }
 
 /* end sponsors__partners */
+
+/* sponsors__partner */
+.sponsors__partner {
+  opacity: 0;
+}
+
+/* end sponsors__partner */

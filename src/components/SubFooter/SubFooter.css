@@ -59,7 +59,7 @@
 /* end copyrights */
 
 /* subfooter__social */
-.subfooter__social-icon {
+.subfooter--box-1 {
   background-color: var(--gold);
   color: var(--buttonA-hover-bgc-top);
   border-radius: 50%;
@@ -81,7 +81,8 @@
     background-color 0.3s ease-in-out;
 }
 
-.subfooter__social-icon:hover {
+.subfooter--box-1:hover {
   background-color: var(--white);
 }
+
 /* end subfooter__social */

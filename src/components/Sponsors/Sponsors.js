@@ -1,3 +1,4 @@
+import FadeInSection from "../FadeInSection/FadeInSection";
 import "./Sponsors.css";
 
 const Sponsors = () => {
@@ -9,38 +10,40 @@ const Sponsors = () => {
         </h6>
       </header>
       <div>
-        <ul className="sponsors__partners">
-          <li>
-            <img
-              className="sponsors__partner"
-              src={"/assets/supporters/cat-lovers.jpg"}
-            />
-          </li>
-          <li>
-            <img
-              className="sponsors__partner"
-              src={"/assets/supporters/happy-cat.jpg"}
-            />
-          </li>
-          <li>
-            <img
-              className="sponsors__partner"
-              src={"/assets/supporters/hedgehog.jpg"}
-            />
-          </li>
-          <li>
-            <img
-              className="sponsors__partner"
-              src={"/assets/supporters/pet-care.jpg"}
-            />
-          </li>
-          <li>
-            <img
-              className="sponsors__partner"
-              src={"/assets/supporters/pet-shop.jpg"}
-            />
-          </li>
-        </ul>
+        <FadeInSection target={`.sponsors__partner`}>
+          <ul className="sponsors__partners">
+            <li>
+              <img
+                className="sponsors__partner"
+                src={"/assets/supporters/cat-lovers.jpg"}
+              />
+            </li>
+            <li>
+              <img
+                className="sponsors__partner"
+                src={"/assets/supporters/happy-cat.jpg"}
+              />
+            </li>
+            <li>
+              <img
+                className="sponsors__partner"
+                src={"/assets/supporters/hedgehog.jpg"}
+              />
+            </li>
+            <li>
+              <img
+                className="sponsors__partner"
+                src={"/assets/supporters/pet-care.jpg"}
+              />
+            </li>
+            <li>
+              <img
+                className="sponsors__partner"
+                src={"/assets/supporters/pet-shop.jpg"}
+              />
+            </li>
+          </ul>
+        </FadeInSection>
       </div>
     </section>
   );
