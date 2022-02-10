@@ -214,7 +214,7 @@ export const navMenu = [
     item: "Kittens",
   },
 
-  // 11-16
+  // 14-16
   {
     tier: 1,
     item: "LAYOUTS",

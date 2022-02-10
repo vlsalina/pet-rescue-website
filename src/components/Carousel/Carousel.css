@@ -124,6 +124,15 @@
   justify-content: center;
 }
 
+/* gsap-carousel-[num] */
+.gsap-carousel-1,
+.gsap-carousel-2,
+.gsap-carousel-3 {
+  opacity: 0;
+}
+
+/* end gsap-carousel-1 */
+
 .carousel__info--top p {
   font-style: italic;
   font-family: Bitter;
