@@ -42,10 +42,23 @@ export const toggleCompanionInfo = (x) => {
   let target = document.getElementsByClassName("companion__image")[x];
   let backdrop = document.getElementsByClassName("companion__backdrop")[x];
   let infoBox = document.getElementsByClassName("companion--box-1")[x];
+  let searchButton = document.getElementsByClassName("companion__search")[x];
+  let burgerButton = document.getElementsByClassName("companion__burger")[x];
+  let centerDivider = document.getElementsByClassName("companion__divider")[x];
 
-  target.addEventListener("mouseover", () => {
+  let tl = gsap.timeline();
+
+  target.addEventListener("mouseenter", () => {
     backdrop.style.display = "block";
     infoBox.style.display = "block";
+    tl.from(searchButton, { x: -200, opacity: 0, duration: 0.3 })
+      .from(burgerButton, { x: 200, opacity: 0, duration: 0.3 }, "<")
+      .from(
+        centerDivider,
+        { scale: 0, duration: 0.3, transformOrigin: "50% 50%" },
+        "<"
+      )
+      .from(backdrop, { opacity: 0, duration: 0.3 }, "<");
   });
 
   target.addEventListener("mouseleave", () => {

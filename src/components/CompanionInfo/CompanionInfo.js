@@ -7,16 +7,20 @@ import { styles } from "../../styles/styles";
 const CompanionInfo = () => {
   return (
     <div className="companion__info">
-      <div className="companion--margin">
-        <IconContext.Provider value={styles.mobile}>
-          <GoSearch />
-        </IconContext.Provider>
+      <div className="companion--margin companion__search">
+        <a href="#">
+          <IconContext.Provider value={styles.mobile}>
+            <GoSearch />
+          </IconContext.Provider>
+        </a>
       </div>
       <div className="companion__divider companion--margin" />
-      <div className="companion--margin">
-        <IconContext.Provider value={styles.mobile}>
-          <GiHamburgerMenu />
-        </IconContext.Provider>
+      <div className="companion--margin companion__burger">
+        <a href="#">
+          <IconContext.Provider value={styles.mobile}>
+            <GiHamburgerMenu />
+          </IconContext.Provider>
+        </a>
       </div>
     </div>
   );
