@@ -1,4 +1,5 @@
 import { navigation } from "./data";
+import gsap from "gsap";
 
 export const toggleNavMenu = (flag, setFlag) => {
   let navMenu = document.getElementsByClassName("navMenu")[0];
@@ -15,17 +16,17 @@ export const toggleNavMenu = (flag, setFlag) => {
 };
 
 export const toggleHomeMenu = (x) => {
-  let button = document.getElementsByClassName(
-    `${x.replace(/\s/g, "")}-flag`
-  )[0];
-  let menu = document.getElementsByClassName(x.replace(/\s/g, ""))[0];
+  let target = x.replace(/\s/g, "");
+
+  let button = document.getElementsByClassName(`${target}-flag`)[0];
+  let menu = document.getElementsByClassName(target)[0];
   button.addEventListener("mouseover", () => {
     menu.style.display = "flex";
+    gsap.from(`.${target}`, { yPercent: 10, opacity: 0 });
     navigation.forEach((other) => {
-      if (other.replace(/\s/g, "") !== x.replace(/\s/g, "")) {
-        document.getElementsByClassName(
-          other.replace(/\s/g, "")
-        )[0].style.display = "none";
+      let otherMenus = other.replace(/\s/g, "");
+      if (otherMenus !== target) {
+        document.getElementsByClassName(otherMenus)[0].style.display = "none";
       }
     });
   });

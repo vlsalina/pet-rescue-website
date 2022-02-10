@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+.App {
+  position: relative;
+  background-image: url("https://pet-rescue.cmsmasters.net/wp-content/themes/pet-rescue/img/bg.png");
+  background-size: cover;
+  z-index: 0;
+}
+
 #root {
   font-size: 16px;
 
