@@ -37,3 +37,19 @@ export const toggleHomeMenu = (x) => {
     });
   }
 };
+
+export const toggleCompanionInfo = (x) => {
+  let target = document.getElementsByClassName("companion__image")[x];
+  let backdrop = document.getElementsByClassName("companion__backdrop")[x];
+  let infoBox = document.getElementsByClassName("companion--box-1")[x];
+
+  target.addEventListener("mouseover", () => {
+    backdrop.style.display = "block";
+    infoBox.style.display = "block";
+  });
+
+  target.addEventListener("mouseleave", () => {
+    backdrop.style.display = "none";
+    infoBox.style.display = "none";
+  });
+};

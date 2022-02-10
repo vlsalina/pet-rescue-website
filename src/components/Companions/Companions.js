@@ -1,7 +1,16 @@
 import "./Companions.css";
 import { companions } from "../../data";
+import CompanionInfo from "../CompanionInfo/CompanionInfo";
+import React from "react";
+import { toggleCompanionInfo } from "../../utils";
 
 const Companions = () => {
+  React.useEffect(() => {
+    [0, 1, 2, 3].forEach((x) => {
+      toggleCompanionInfo(x);
+    });
+  }, []);
+
   return (
     <section className="companions">
       <div className="companions__heading">
@@ -15,6 +24,10 @@ const Companions = () => {
           <div className="companion__featured" key={co.name}>
             <div className="companion__image">
               <img src={co.img} />
+              <div className="companion__backdrop" />
+              <div className="companion--box-1">
+                <CompanionInfo />
+              </div>
             </div>
             <div className="companion__name">
               <a href="#">{co.name}</a>

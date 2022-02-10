@@ -1,0 +1,15 @@
+.companion__info {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.companion__divider {
+  width: 1px;
+  height: 2rem;
+  background-color: var(--white);
+}
+
+.companion--margin:not(:last-child) {
+  margin-right: var(--padding1);
+}

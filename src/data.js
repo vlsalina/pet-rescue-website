@@ -49,8 +49,8 @@ export const companions = [
   {
     name: "Belle",
     story:
-      "Belle came to the shelter when someone in his family became allergic. He's an affectionate guy who.. enjoys catnip and watching...",
-    img: "/assets/companions/belle-580x460.jpg",
+      "Belle came to the shelter when someone in her family became allergic. He's an affectionate guy who.. enjoys catnip and watching...",
+    img: "/assets/companions/minnie-580x460.jpg",
   },
 ];
 
