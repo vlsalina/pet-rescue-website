@@ -37,7 +37,8 @@ const SubFooter = () => {
       </div>
       <div>
         <p className="copyrights">
-          This is a sample website - cmsmasters © 2022 / All Rights Reserved
+          This is a sample website inspired by - cmsmasters © 2022 / All Rights
+          Reserved
         </p>
       </div>
     </div>

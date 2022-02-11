@@ -24,9 +24,10 @@ export const toggleHomeMenu = (x) => {
     menu.style.display = "flex";
     gsap.from(`.${target}`, { yPercent: 10, opacity: 0, duration: 0.2 });
     navigation.forEach((other) => {
-      let otherMenus = other.replace(/\s/g, "");
-      if (otherMenus !== target) {
-        document.getElementsByClassName(otherMenus)[0].style.display = "none";
+      let o = other.replace(/\s/g, "");
+      let toNotDisplay = document.getElementsByClassName(o)[0];
+      if (toNotDisplay && o !== target) {
+        toNotDisplay.style.display = "none";
       }
     });
   });
