@@ -42,17 +42,23 @@ const Events = () => {
         <div className="ads">
           <div className="ads--box">
             <a href="#">
-              <img src={`/assets/ads/donate.png`} />
+              <img
+                src={`https://pet-rescue.cmsmasters.net/wp-content/uploads/2015/01/donate.png`}
+              />
             </a>
           </div>
           <div className="ads--box">
             <a href="#">
-              <img src={`/assets/ads/onlineshop.jpg`} />
+              <img
+                src={`https://pet-rescue.cmsmasters.net/wp-content/uploads/2015/01/onlineshop.jpg`}
+              />
             </a>
           </div>
           <div className="ads--box">
             <a href="#">
-              <img src={`/assets/ads/facebook.png`} />
+              <img
+                src={`https://pet-rescue.cmsmasters.net/wp-content/uploads/2015/01/facebook.png`}
+              />
             </a>
           </div>
         </div>

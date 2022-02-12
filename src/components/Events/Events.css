@@ -116,8 +116,11 @@
 }
 
 @media screen and (min-width: 769px) {
+  .ads--box {
+    width: 100%;
+  }
+
   .ads {
-    padding: 0 0 0 2rem;
     width: 100%;
   }
 }
