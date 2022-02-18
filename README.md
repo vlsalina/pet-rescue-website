@@ -1,6 +1,6 @@
 # Pet Rescue Website
 
-With more adoptable _pets_ than ever, there is an urgent need for _pet_ adopters. With Pet Rescue, you can search for dogs, cats, and other available _pets_ for _adoption_ near you.
+Pet Rescue is a Wordpress Theme I reproduced from [EnvatoMarket](https://themeforest.net/item/pet-rescue-animals-shelter-charity-wp-theme/9347370?_ga=2.200040302.1154823803.1645215725-565922936.1643977265). I recreated this theme as a way to practice using CSS animation effects such as transitions, keyframes, as well as [GSAP](https://greensock.com/), one of the most popular web animation libraries. After viewing websites like [Handwrytten](https://www.handwrytten.com/) and [WebbyAwards](https://www.webbyawards.com/crafted-with-code/wonderful-weekends/), I was inspired to learn more.
 
 ## Table of contents
 
