@@ -1,0 +1,37 @@
+.navMenu {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(0, 100%);
+  z-index: 1;
+  background-color: var(--white);
+}
+
+.navMenu__items {
+  padding: 2rem;
+}
+
+.navMenu__item--1 {
+  margin-left: 1rem;
+}
+
+.navMenu__item--2 {
+  margin-left: 2rem;
+}
+
+.navMenu__item--3 {
+  margin-left: 3rem;
+}
+
+.navMenu__item {
+  margin-bottom: 1rem;
+}
+
+.navMenu--display {
+  display: block;
+}
+
+.navMenu--nodisplay {
+  display: none;
+}

@@ -1,0 +1,80 @@
+.learn {
+  background-color: #8e393d;
+  width: 100%;
+}
+
+/* learn items */
+.learn__items {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 3rem 0;
+}
+
+/* end learn items */
+
+/* learn item */
+
+.learn__items li {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.learn__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  padding: 0 1rem;
+}
+
+/* learn__what */
+.learn__what h1 {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  color: rgba(255, 255, 255, 1);
+}
+/* end learn__what */
+
+.learn__image {
+  width: 199px;
+  height: 199px;
+}
+
+.learn__image img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.learn__how p {
+  text-align: center;
+}
+
+.learn__what,
+.learn__how {
+  color: var(--white);
+}
+
+@media screen and (min-width: 769px) {
+  .learn__items li {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .learn__items li {
+    width: 25%;
+    margin-bottom: 0;
+  }
+
+  .learn__item {
+    width: 100%;
+  }
+}
+
+/* end learn item */

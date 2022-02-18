@@ -1,0 +1,39 @@
+.menu {
+  padding: var(--padding1);
+  position: absolute;
+  bottom: 0;
+  transform: translate(0, 100%);
+  background-color: var(--white);
+  display: none;
+}
+
+.menu ul li:not(:last-child) {
+  margin-bottom: var(--margin-bottom-1);
+}
+
+.home {
+  width: 180px;
+  opacity: 1;
+}
+
+.pets {
+  width: 180px;
+  opacity: 1;
+}
+
+.layouts {
+  width: 180px;
+  opacity: 1;
+}
+
+.posttypes {
+  width: 500px;
+  opacity: 1;
+  left: -100%;
+}
+
+.shortcodes {
+  width: 500px;
+  opacity: 1;
+  left: -150%;
+}

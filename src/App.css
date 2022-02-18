@@ -1,3 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  position: relative;
+  background-image: url("https://pet-rescue.cmsmasters.net/wp-content/themes/pet-rescue/img/bg.png");
+  background-size: cover;
+  z-index: 0;
+}
+
+#root {
+  font-size: 16px;
+
+  /* global variables */
+  --white: #fff;
+  --white-2: rgb(231, 218, 218);
+  --black: #000;
+  --gold: rgba(244, 174, 64, 1);
+  --gold-2: rgb(156, 122, 68);
+  --dark-brown-1: #2e2b29;
+  --dark-brown-2: rgba(46, 43, 41, 1);
+  --desktop: 1025px;
+  --buttonA-hover-bgc-bottom: #3d3d3d;
+  --buttonA-hover-bgc-top: #8e393d;
+
+  /* global margin variables */
+  --margin-bottom-1: 1rem;
+
+  /* padding variables */
+  --padding1: 1.5rem;
+}
+
+/* global text styling */
+.text-styles-1 {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: none;
+}
+
+.text-styles-2 {
+  background: transparent;
+  border: 0;
+  margin: 1rem 0 0 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: none;
+}
+
+.text-styles-3 {
+  font-family: "Bitter", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: none;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 .App {
   width: 100%;
   display: flex;
@@ -5,6 +73,18 @@
   align-items: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 .App--box-1 {
-  width: 50vw;
+  width: 100%;
+  position: relative;
+  z-index: -2;
+}
+
+@media screen and (min-width: 1025px) {
+  .App--box-1 {
+    width: var(--desktop);
+  }
 }
