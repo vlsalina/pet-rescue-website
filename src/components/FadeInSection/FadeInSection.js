@@ -6,7 +6,7 @@ const FadeInSection = (props) => {
   const [isVisible, setIsVisible] = useState(false);
   const domRef = useRef();
   const options = {
-    threshold: props.target === ".sponsors__partner" ? 0.1 : 1,
+    threshold: props.target === ".sponsors__partner" ? 0.1 : 0.6,
   };
 
   useEffect(() => {

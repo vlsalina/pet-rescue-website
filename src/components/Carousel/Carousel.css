@@ -83,6 +83,45 @@
 
 /* end carousel buttons */
 
+/* carousel__info--width1 */
+.carousel__info--width1 {
+  width: 30vw;
+  text-align: start;
+}
+
+@media screen and (min-width: 1025px) {
+  .carousel__info--width1 {
+    width: 308px;
+  }
+}
+/* end carousel__info--width1 */
+
+/* carousel__info--width2 */
+.carousel__info--width2 {
+  width: 30vw;
+  text-align: end;
+}
+/* end carousel__info--width2 */
+
+/* carousel__info--width3 */
+.carousel__info--width3 {
+  width: 100%;
+  text-align: center;
+}
+/* end carousel__info--width3 */
+
+/* carousel__info-4--width */
+.carousel__info-4--width {
+  width: 30vw;
+}
+
+@media screen and (min-width: 1025px) {
+  .carousel__info-4--width {
+    width: 308px;
+  }
+}
+/* end carousel__info-4--width */
+
 /* carousel scroll bar */
 *::-webkit-scrollbar {
   height: 0;
@@ -101,18 +140,27 @@
 /* image 1 info box */
 .carousel--box-3 {
   position: absolute;
-  width: 30vw;
+  width: 50vw;
   height: 100%;
   top: 0;
   left: 10vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
 }
 
+/* carousel--margin1 */
 .carousel--margin1 {
-  margin-bottom: var(--margin-bottom-1);
+  margin-bottom: var(--margin-bottom-2);
 }
+
+@media screen and (min-width: 430px) {
+  .carousel--margin1 {
+    margin-bottom: var(--margin-bottom-1);
+  }
+}
+/* end carousel--margin1 */
 
 .carousel__info--end {
   display: flex;
@@ -150,7 +198,7 @@
 .carousel__info--middle p {
   font-weight: 700;
   font-family: Bitter;
-  font-size: 2vw;
+  font-size: 3vw;
   color: var(--gold);
   border-radius: 3px;
   margin: 0px;
@@ -184,11 +232,11 @@
 
 @media screen and (min-width: 1025px) {
   .carousel__info--bottom p {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
 
   .carousel__info--middle p {
-    font-size: 1rem;
+    font-size: 33px;
   }
 
   .carousel__info--top p {
@@ -207,13 +255,14 @@
 
 .carousel--box-4 {
   position: absolute;
-  width: 30vw;
+  width: 50vw;
   height: 100%;
   top: 0;
   right: 10vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-end;
 }
 
 @media screen and (min-width: 1025px) {

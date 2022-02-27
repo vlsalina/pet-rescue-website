@@ -25,7 +25,8 @@
   --buttonA-hover-bgc-top: #8e393d;
 
   /* global margin variables */
-  --margin-bottom-1: 1rem;
+  --margin-bottom-1: 1.5rem;
+  --margin-bottom-2: 1rem;
 
   /* padding variables */
   --padding1: 1.5rem;

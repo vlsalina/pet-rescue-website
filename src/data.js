@@ -4,6 +4,24 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaVimeoV } from "react-icons/fa";
 import { FaSkype } from "react-icons/fa";
 
+export const carousel = {
+  image1: {
+    mobile: "/assets/carousel/bg-2/bg-2-mobile.jpg",
+    tablet: "/assets/carousel/bg-2/bg-2-tablet.jpg",
+    desktop: "/assets/carousel/bg-2/bg-2-desktop.jpg",
+  },
+  image2: {
+    mobile: "/assets/carousel/bg-6/bg-6-mobile.jpg",
+    tablet: "/assets/carousel/bg-6/bg-6-tablet.jpg",
+    desktop: "/assets/carousel/bg-6/bg-6-desktop.jpg",
+  },
+  image3: {
+    mobile: "/assets/carousel/bg-11/bg-11-mobile.jpg",
+    tablet: "/assets/carousel/bg-11/bg-11-tablet.jpg",
+    desktop: "/assets/carousel/bg-11/bg-11-desktop.jpg",
+  },
+};
+
 export const learn = [
   {
     what: "Adopt",
