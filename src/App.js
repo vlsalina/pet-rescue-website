@@ -10,12 +10,10 @@ import SubFooter from "./components/SubFooter/SubFooter";
 import PlaceHolder from "./components/PlaceHolder/PlaceHolder";
 import Header from "./components/Header/Header";
 import NavMenu from "./components/NavMenu/NavMenu";
-import Metadata from "./components/Metadata/Metadata";
 
 function App() {
   return (
     <div className="App">
-      <Metadata />
       <div className="App--box-1">
         <Header />
         <Carousel />
